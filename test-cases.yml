@@ -8,7 +8,7 @@
     Открыта страница регистрации Sign up
   test-data: |
     Nickname = user1 Email = user1@mail.ru Пароль = useruser 
-  steps: |
+  steps:
     - Вводим никнейм
     - Вводим емэйл
     - Вводим пароль
@@ -26,7 +26,7 @@
     Открыта страница логина Sign in
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Вводим Еmail
     - Вводим пароль
     - Нажимаем кнопку "Submit"
@@ -41,7 +41,7 @@
     Открыта страница логина Sign in
   test-data: |
     Еmail = use1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Вводим Еmail
     - Вводим пароль
     - Нажимаем кнопку "Submit"
@@ -56,7 +56,7 @@
     Открыта страница логина Sign in
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser111
-  steps: |
+  steps:
     - Вводим Еmail
     - Вводим пароль
     - Нажимаем кнопку "Submit"
@@ -71,7 +71,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Кликнуть на вкладку "Completed games"
   expected-result: |
     Открывается список завершенных игр, которые отсортированы по
@@ -87,7 +87,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - на вкладке "Leaderboard" кликнуть на вкладку "Month"
     - на вкладке "Leaderboard" кликнуть на вкладку  "All"
   expected-result: |
@@ -106,7 +106,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - На вкладке "Leaderboard" нажать на "Top List"
   expected-result: |
     Откроется страница с полным рейтингом всех пользователей за
@@ -120,7 +120,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, task by name,
       tags
@@ -137,7 +137,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser Оппонент = user2
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, task by name,
       tags
@@ -155,7 +155,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail для user1 = user1@mail.ru Пароль для user1 = useruser Оппонент: user2 Еmail для user2 = user2@mail.ru Пароль для user2 = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, task by name, tags
     - В разделе Game type выбрать "with a friend"
@@ -176,7 +176,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, game type task
       by name, tags
@@ -194,7 +194,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, game type task
       by name, tags
@@ -212,7 +212,7 @@
       Пользователь авторизован, открыта главная страница
   test-data: |
       Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
      - Нажать на "Create a game"
      - В появившемся попапе выбрать любые параметры level, time, game type task by name, tags
      - Нажать на "Create Battle"
@@ -232,7 +232,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, game type task
       by name, tags
@@ -250,7 +250,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажимаем на вкладку 'Completed Games'
   expected-result: |
     Загружается таблица с завершенными играми отсортированными
@@ -264,7 +264,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажимаем на вкладку 'Completed Games'
     - Выбираем любую из игр в таблице и нажимаем на кнопку "Show" в её строчке
     - На загрузившейся странице с игрой нажимаем на кнопку проигрывания внизу
@@ -281,7 +281,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Во вкладке Lobby выбрать игру, у которой статус обозначен иконкой 2х
       скрещенных мечей
     - Нажать на кнопку Show в строке этой выбранной игры
@@ -297,7 +297,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - В разделе Leaderboard нажимаем на никнейм любого пользователя
   expected-result: |
     Загружается страница с информацией о выбранном пользователе,
@@ -312,7 +312,7 @@
     Пользователь авторизован
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, game type, task
       by name, tags
@@ -331,7 +331,7 @@
     Пользователь авторизован, открыта главная страница
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser Сообщение = "Hello world!"
-  steps: |
+  steps:
     - Нажать на "Create a game"
     - В появившемся попапе выбрать любые параметры level, time, game type task
       by name, tags
@@ -351,7 +351,7 @@
     Сайт открывается на мобильном устройстве с ОС - iOS 16.0(20A362)
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - На мобильном устройстве переходим на страницу сайта
       https://codebattle.hexlet.io/#lobby
     - Авторизуемся, введя данные  для user1
@@ -380,7 +380,7 @@
     -Версия 109.0.5414.129
   test-data: |
     Еmail = user1@mail.ru Пароль = useruser
-  steps: |
+  steps:
     - В браузере открываем страницу сайта https://codebattle.hexlet.io/#lobby
     - Авторизуемся, введя данные  для user1
     - Нажать на раздел Tournaments
