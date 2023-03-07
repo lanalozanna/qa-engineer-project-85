@@ -212,13 +212,13 @@
       Пользователь авторизован, открыта главная страница.
   test-data: |
       Еmail = user1@mail.ru Пароль = useruser
- steps: |
+  steps: |
      - Нажать на "Create a game"
      - В появившемся попапе выбрать любые параметры level, time, game type task by name, tags.
      - Нажать на "Create Battle".
      - Нажимаем на красный флажок "Give Up" в своем поле.
      - Подтверждаем действие в попапе, нажимая "Give Up"
- expected-result: |
+  expected-result: |
       В поле игрока user1 появляется надпись Game Over. user1 присуждается 0 баллов. Оппоненту 1 балл.
       Информация об этом появляется в пункте "score" в поле каждого игрока
      
